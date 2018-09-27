@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>neusoft</groupId>
+    <artifactId>neusoft-root</artifactId>
+    <packaging>pom</packaging><!-- pom代表依赖可被传递-->
+    <version>1.0-SNAPSHOT</version>
+    <!--root是根项目，dao是一个模块-->
+    <modules>
+        <module>neu.dao</module>
+        <module>neu.service</module>
+        <module>neu.domain</module>
+        <module>neu.jdbc</module>
+    </modules>
+
+    <properties>
+        <junit.version>4.12</junit.version>
+        <bean.version>1.8.3</bean.version>
+    </properties>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-beanutils</groupId>
+                <artifactId>commons-beanutils</artifactId>
+                <version>${bean.version}</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+
+</project>

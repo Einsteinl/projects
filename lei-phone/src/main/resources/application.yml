@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /lei
+spring:
+  datasource:
+    username: root
+    password: leishao
+    url: jdbc:mysql://localhost:3306/test_product?useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver

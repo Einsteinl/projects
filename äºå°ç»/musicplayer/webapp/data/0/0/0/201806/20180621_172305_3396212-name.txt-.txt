@@ -1,0 +1,11 @@
+﻿this is a mapreduce
+this is a student
+hello world
+this is a teaceher
+
+this is person
+
+hello
+
+hello
+hadoop jar mapreduceExample-0.0.1-SNAPSHOT.jar com.neuedu.yarn.YarnmapReduce /input/name.txt /output

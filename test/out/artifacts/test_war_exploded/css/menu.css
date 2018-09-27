@@ -1,0 +1,31 @@
+#menu {
+	/*background-color: whitesmoke;*/
+	height: 60px;
+	display: flex;
+	flex-flow: row nowrap;
+	box-shadow: 0px 1px 1px gainsboro inset;
+	opacity: .8;
+}
+
+.menu-div {
+	
+	width: 25%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-end;
+	align-items: center;
+	
+}
+.menu-div img{
+	
+	height: 23px; width: 23px;
+	opacity: .7;
+}
+
+.font-menu {
+	margin-top: 4px;
+	font-family: "微软雅黑";
+	font-weight: 200;
+	font-size: 90%
+}
+

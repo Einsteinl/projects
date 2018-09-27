@@ -1,0 +1,20 @@
+html,body {
+	height: 100%;
+	width: 100%;
+}
+
+*{
+	font-family: "微软雅黑 , verdana, geneva, arial, helvetica, sans-serif";
+	font-weight: 300;
+	padding: 0;
+	margin: 0;
+}
+
+::-webkit-scrollbar {
+	display:none;
+}
+
+
+.show-border{
+	border: 1px red solid;
+}
